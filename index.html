@@ -3,39 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/styles.css">
     <title>Single Price Component</title>
   </head>
   <body>
-    <header class="page__header">
-      <h1 class="page__title">Join our comunity</h1>
-      <p class="page__subtitle">
-        30-day, hassle-free money back guarantee
-      </p>
-      <p class="description">
-        Gain access to our full library of tutorials along with expert code reviews. Perfecet for any developers who are serious about honing their skills
-      </p>
-    </header>
-    <main class="page__main">
-      <section class="page__panel">
-        <h2 class="panel__title">
-          Monthly Subscription
-        </h2>
-        <p class="panel__price"><span class="price">$29</span> per month</p>
-        <p class="price__description">Full access for less than $1 a day</p>
-        <a href="#" class="panel__cta">Sign Up</a>
+    <article class="container">
+      <section class="top-content">
+        <header>
+          <h2 class="text-big text-cyan">Join our community</h2>
+          <p class="text-medium text-lime">
+            30-day, hassle-free money back guarantee
+          </p>
+        </header>
+        <p class="text-nomal">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills</p>
       </section>
-      <section class="page__panel">
-        <h2 class="panel__title">Why Us</h2>
-        <p class="panel__description">
-          Tutorials by industry experts Peer & expert code review.<br>
-          Coding exerceise.<br>
-          Access to our GitHub repos.<br>
-          Community forum.<br>
-          Flashcard decks.<br>
-          New videos every week
+      <section class="left-content text-white">
+        <header>
+          <h3 class="text-big">
+            Monthy Subscription
+          </h3>
+        </header>
+        <p>
+          <span class="text-biggest">$29</span>
+          <span class="text-medium text-transparent">
+            per month
+          </span>
         </p>
+        <p class="text-normal">Full access for less than $1 a day</p>
+        <a href="#" class="button">Sign Up</a>
       </section>
-    </main>
+      <section class="right-content">
+        <header>
+          <h3 class="text-big text-white">
+            Why Us
+          </h3>
+        </header>
+        <ul class="list">
+          <li class="list__item">Tutorials by industry experts Perr & expert code review</li>
+          <li class="list__item">Coding exercises</li>
+          <li class="list__item">Access to our GitHub repos</li>
+          <li class="list__item">Community forum</li>
+          <li class="list__item">Flashcard decks</li>
+          <li class="list__item">New videos every week</li>
+        </ul>
+      </section>
+    </article>
   </body>
 </html>
